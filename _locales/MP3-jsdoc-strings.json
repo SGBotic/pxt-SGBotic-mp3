@@ -1,0 +1,20 @@
+{
+  "SGBotic": "Makecode block for mp3 player\n\nSGBotic blocks",
+  "SGBotic.MP3_init": "Initialize MP3 player",
+  "SGBotic.MP3_init|param|pinRX": "is to receive data, eg: SerialPin.P0",
+  "SGBotic.MP3_reset": "Reset MP3 player",
+  "SGBotic.nextTrack": "Play next track",
+  "SGBotic.pause": "Pause",
+  "SGBotic.play": "Play track",
+  "SGBotic.playTrack": "Play track (1 to 99) in folder (1 to 99).",
+  "SGBotic.playTrack|param|folder": "which the track resides, eg: 1",
+  "SGBotic.playTrack|param|track": "to be play, eg: 1",
+  "SGBotic.prevTrack": "Play previous track",
+  "SGBotic.repeatTrack": "Repeat track",
+  "SGBotic.setVolume": "Set volume (1 to 30)",
+  "SGBotic.setVolume|param|volume": "is to set speaker volume, eg: 15",
+  "SGBotic.shufflePlay": "Shuffle play",
+  "SGBotic.stop": "Stop",
+  "SGBotic.volumeDec": "Decrease volume",
+  "SGBotic.volumeInc": "Increase volume"
+}

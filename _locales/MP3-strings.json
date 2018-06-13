@@ -1,0 +1,21 @@
+{
+  "SGBotic.MP3_init|block": "connect MP3 player RX to %pinRX|TX to %pinTX",
+  "SGBotic.MP3_reset|block": "reset MP3 player",
+  "SGBotic.StartStop.START|block": "Start",
+  "SGBotic.StartStop.STOP|block": "Stop",
+  "SGBotic.YesNo.NO|block": "No",
+  "SGBotic.YesNo.YES|block": "Yes",
+  "SGBotic.nextTrack|block": "next track",
+  "SGBotic.pause|block": "pause",
+  "SGBotic.playTrack|block": "play track %track| in folder %folder",
+  "SGBotic.play|block": "play",
+  "SGBotic.prevTrack|block": "previous track",
+  "SGBotic.repeatTrack|block": "repeat track %repeatTrk",
+  "SGBotic.setVolume|block": "volume %volume",
+  "SGBotic.shufflePlay|block": "shuffle play",
+  "SGBotic.stop|block": "stop",
+  "SGBotic.volumeDec|block": "volume -",
+  "SGBotic.volumeInc|block": "volume +",
+  "SGBotic|block": "SGBotic",
+  "{id:category}SGBotic": "SGBotic"
+}

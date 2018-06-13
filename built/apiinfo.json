@@ -1,0 +1,1049 @@
+{
+ "byQName": {
+  "SGBotic": {
+   "kind": 5,
+   "namespace": "",
+   "name": "SGBotic",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "weight": 100,
+    "color": "#f47820",
+    "icon": "",
+    "paramHelp": {},
+    "jsDoc": "Makecode block for mp3 player\n\nSGBotic blocks",
+    "block": "SGBotic"
+   },
+   "pkg": null,
+   "retType": "",
+   "parameters": null,
+   "qName": "SGBotic"
+  },
+  "SGBotic.CMD": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "CMD",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "CMD"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD"
+  },
+  "SGBotic.CMD.NEXT_TRACK": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "NEXT_TRACK",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "NEXT_TRACK"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.NEXT_TRACK"
+  },
+  "SGBotic.CMD.PREV_TRACK": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PREV_TRACK",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PREV_TRACK"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PREV_TRACK"
+  },
+  "SGBotic.CMD.PLAY_TRACK": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PLAY_TRACK",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PLAY_TRACK"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PLAY_TRACK"
+  },
+  "SGBotic.CMD.VOLUME_UP": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "VOLUME_UP",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "VOLUME_UP"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.VOLUME_UP"
+  },
+  "SGBotic.CMD.VOLUME_DOWN": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "VOLUME_DOWN",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "VOLUME_DOWN"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.VOLUME_DOWN"
+  },
+  "SGBotic.CMD.SET_VOLUME": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "SET_VOLUME",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "SET_VOLUME"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.SET_VOLUME"
+  },
+  "SGBotic.CMD.TRACK_REPEAT_PLAY": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "TRACK_REPEAT_PLAY",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "TRACK_REPEAT_PLAY"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.TRACK_REPEAT_PLAY"
+  },
+  "SGBotic.CMD.SEL_DEVICE": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "SEL_DEVICE",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "SEL_DEVICE"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.SEL_DEVICE"
+  },
+  "SGBotic.CMD.SLEEP_MODE": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "SLEEP_MODE",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "SLEEP_MODE"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.SLEEP_MODE"
+  },
+  "SGBotic.CMD.WAKE_UP": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "WAKE_UP",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "WAKE_UP"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.WAKE_UP"
+  },
+  "SGBotic.CMD.RESET": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "RESET",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "RESET"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.RESET"
+  },
+  "SGBotic.CMD.PLAY": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PLAY",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PLAY"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PLAY"
+  },
+  "SGBotic.CMD.PAUSE": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PAUSE",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PAUSE"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PAUSE"
+  },
+  "SGBotic.CMD.PLAY_FOLDER_FILE": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PLAY_FOLDER_FILE",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PLAY_FOLDER_FILE"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PLAY_FOLDER_FILE"
+  },
+  "SGBotic.CMD.STOP": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "STOP",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "STOP"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.STOP"
+  },
+  "SGBotic.CMD.FOLDER_REPEAT_PLAY": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "FOLDER_REPEAT_PLAY",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "FOLDER_REPEAT_PLAY"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.FOLDER_REPEAT_PLAY"
+  },
+  "SGBotic.CMD.SHUFFLE_PLAY": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "SHUFFLE_PLAY",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "SHUFFLE_PLAY"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.SHUFFLE_PLAY"
+  },
+  "SGBotic.CMD.SET_SINGLE_CYCLE_PLAY": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "SET_SINGLE_CYCLE_PLAY",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "SET_SINGLE_CYCLE_PLAY"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.SET_SINGLE_CYCLE_PLAY"
+  },
+  "SGBotic.CMD.PLAY_W_VOL": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "PLAY_W_VOL",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "PLAY_W_VOL"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.PLAY_W_VOL"
+  },
+  "SGBotic.CMD.QUERY_STATUS": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_STATUS",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_STATUS"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_STATUS"
+  },
+  "SGBotic.CMD.QUERY_VOLUME": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_VOLUME",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_VOLUME"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_VOLUME"
+  },
+  "SGBotic.CMD.QUERY_TRACK_COUNT": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_TRACK_COUNT",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_TRACK_COUNT"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_TRACK_COUNT"
+  },
+  "SGBotic.CMD.QUERY_CURRENT_TRACK": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_CURRENT_TRACK",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_CURRENT_TRACK"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_CURRENT_TRACK"
+  },
+  "SGBotic.CMD.QUERY_FOLDER_TRACKS": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_FOLDER_TRACKS",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_FOLDER_TRACKS"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_FOLDER_TRACKS"
+  },
+  "SGBotic.CMD.QUERY_FOLDER_COUNT": {
+   "kind": 7,
+   "namespace": "SGBotic.CMD",
+   "name": "QUERY_FOLDER_COUNT",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "QUERY_FOLDER_COUNT"
+   },
+   "pkg": null,
+   "retType": "SGBotic.CMD",
+   "parameters": null,
+   "qName": "SGBotic.CMD.QUERY_FOLDER_COUNT"
+  },
+  "SGBotic.YesNo": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "YesNo",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "YesNo"
+   },
+   "pkg": null,
+   "retType": "SGBotic.YesNo",
+   "parameters": null,
+   "qName": "SGBotic.YesNo"
+  },
+  "SGBotic.YesNo.NO": {
+   "kind": 7,
+   "namespace": "SGBotic.YesNo",
+   "name": "NO",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "No",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "NO"
+   },
+   "pkg": null,
+   "retType": "SGBotic.YesNo",
+   "parameters": null,
+   "qName": "SGBotic.YesNo.NO"
+  },
+  "SGBotic.YesNo.YES": {
+   "kind": 7,
+   "namespace": "SGBotic.YesNo",
+   "name": "YES",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Yes",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "YES"
+   },
+   "pkg": null,
+   "retType": "SGBotic.YesNo",
+   "parameters": null,
+   "qName": "SGBotic.YesNo.YES"
+  },
+  "SGBotic.StartStop": {
+   "kind": 6,
+   "namespace": "SGBotic",
+   "name": "StartStop",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "StartStop"
+   },
+   "pkg": null,
+   "retType": "SGBotic.StartStop",
+   "parameters": null,
+   "qName": "SGBotic.StartStop"
+  },
+  "SGBotic.StartStop.STOP": {
+   "kind": 7,
+   "namespace": "SGBotic.StartStop",
+   "name": "STOP",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Stop",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "STOP"
+   },
+   "pkg": null,
+   "retType": "SGBotic.StartStop",
+   "parameters": null,
+   "qName": "SGBotic.StartStop.STOP"
+  },
+  "SGBotic.StartStop.START": {
+   "kind": 7,
+   "namespace": "SGBotic.StartStop",
+   "name": "START",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "block": "Start",
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "START"
+   },
+   "pkg": null,
+   "retType": "SGBotic.StartStop",
+   "parameters": null,
+   "qName": "SGBotic.StartStop.START"
+  },
+  "SGBotic.MP3_init": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "MP3_init",
+   "attributes": {
+    "paramDefl": {
+     "pinRX": "SerialPin.P0",
+     "pinTx": "SerialPin.P1"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_init",
+    "block": "connect MP3 player RX to %pinRX|TX to %pinTX",
+    "weight": 100,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {
+     "pinRX": "is to receive data, eg: SerialPin.P0",
+     "pinTx": "is to transmit data, eg: SerialPin.P1"
+    },
+    "jsDoc": "Initialize MP3 player",
+    "_name": "MP3_init"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "pinRX",
+     "description": "is to receive data, eg: SerialPin.P0",
+     "type": "SerialPin",
+     "initializer": "SerialPin.P0",
+     "default": "SerialPin.P0",
+     "options": {},
+     "isEnum": true
+    },
+    {
+     "name": "pinTX",
+     "description": "",
+     "type": "SerialPin",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "MP3_init(SerialPin.P0, null)",
+   "qName": "SGBotic.MP3_init"
+  },
+  "SGBotic.MP3_reset": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "MP3_reset",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_reset",
+    "block": "reset MP3 player",
+    "weight": 95,
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Reset MP3 player",
+    "_name": "MP3_reset"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "MP3_reset()",
+   "qName": "SGBotic.MP3_reset"
+  },
+  "SGBotic.setVolume": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "setVolume",
+   "attributes": {
+    "paramDefl": {
+     "volume": "15"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_setVolume",
+    "block": "volume %volume",
+    "weight": 94,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramMin": {
+     "volume": "1"
+    },
+    "paramMax": {
+     "volume": "30"
+    },
+    "paramHelp": {
+     "volume": "is to set speaker volume, eg: 15"
+    },
+    "jsDoc": "Set volume (1 to 30)",
+    "_name": "setVolume"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "volume",
+     "description": "is to set speaker volume, eg: 15",
+     "type": "number",
+     "initializer": "15",
+     "default": "15",
+     "options": {
+      "min": {
+       "value": "1"
+      },
+      "max": {
+       "value": "30"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "setVolume(15)",
+   "qName": "SGBotic.setVolume"
+  },
+  "SGBotic.volumeInc": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "volumeInc",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_volumeInc",
+    "block": "volume +",
+    "weight": 93,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Increase volume",
+    "_name": "volumeInc"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "volumeInc()",
+   "qName": "SGBotic.volumeInc"
+  },
+  "SGBotic.volumeDec": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "volumeDec",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_volumeDec",
+    "block": "volume -",
+    "weight": 92,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Decrease volume",
+    "_name": "volumeDec"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "volumeDec()",
+   "qName": "SGBotic.volumeDec"
+  },
+  "SGBotic.nextTrack": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "nextTrack",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_nextTrack",
+    "block": "next track",
+    "weight": 71,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Play next track",
+    "_name": "nextTrack"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "nextTrack()",
+   "qName": "SGBotic.nextTrack"
+  },
+  "SGBotic.prevTrack": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "prevTrack",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_prevTrack",
+    "block": "previous track",
+    "weight": 70,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Play previous track",
+    "_name": "prevTrack"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "prevTrack()",
+   "qName": "SGBotic.prevTrack"
+  },
+  "SGBotic.play": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "play",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_play",
+    "block": "play",
+    "weight": 80,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Play track",
+    "_name": "play"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "play()",
+   "qName": "SGBotic.play"
+  },
+  "SGBotic.pause": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "pause",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_pause",
+    "block": "pause",
+    "weight": 79,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Pause",
+    "_name": "pause"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "pause()",
+   "qName": "SGBotic.pause"
+  },
+  "SGBotic.stop": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "stop",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_stop",
+    "block": "stop",
+    "weight": 78,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Stop",
+    "_name": "stop"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "stop()",
+   "qName": "SGBotic.stop"
+  },
+  "SGBotic.playTrack": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "playTrack",
+   "attributes": {
+    "paramDefl": {
+     "track": "1",
+     "folder": "1"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_playTrack",
+    "block": "play track %track| in folder %folder",
+    "weight": 90,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramMin": {
+     "track": "1",
+     "folder": "1"
+    },
+    "paramMax": {
+     "track": "99",
+     "folder": "99"
+    },
+    "paramHelp": {
+     "track": "to be play, eg: 1",
+     "folder": "which the track resides, eg: 1"
+    },
+    "jsDoc": "Play track (1 to 99) in folder (1 to 99).",
+    "_name": "playTrack"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "track",
+     "description": "to be play, eg: 1",
+     "type": "number",
+     "initializer": "1",
+     "default": "1",
+     "options": {
+      "min": {
+       "value": "1"
+      },
+      "max": {
+       "value": "99"
+      }
+     },
+     "isEnum": false
+    },
+    {
+     "name": "folder",
+     "description": "which the track resides, eg: 1",
+     "type": "number",
+     "initializer": "1",
+     "default": "1",
+     "options": {
+      "min": {
+       "value": "1"
+      },
+      "max": {
+       "value": "99"
+      }
+     },
+     "isEnum": false
+    }
+   ],
+   "snippet": "playTrack(1, 1)",
+   "qName": "SGBotic.playTrack"
+  },
+  "SGBotic.repeatTrack": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "repeatTrack",
+   "attributes": {
+    "paramDefl": {
+     "repeatTrack": "StartStop.STOP"
+    },
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_repeatTrack",
+    "block": "repeat track %repeatTrk",
+    "weight": 90,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {
+     "repeatTrack": "to continue playing track, eg: StartStop.STOP"
+    },
+    "jsDoc": "Repeat track",
+    "_name": "repeatTrack"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "repeatTrk",
+     "description": "",
+     "type": "SGBotic.StartStop",
+     "options": {},
+     "isEnum": true
+    }
+   ],
+   "snippet": "repeatTrack(null)",
+   "qName": "SGBotic.repeatTrack"
+  },
+  "SGBotic.shufflePlay": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "shufflePlay",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "subcategory": "MP3",
+    "blockId": "MP3_shufflePlay",
+    "block": "shuffle play",
+    "weight": 90,
+    "blockExternalInputs": "true",
+    "blockGap": "20",
+    "paramHelp": {},
+    "jsDoc": "Shuffle play",
+    "_name": "shufflePlay"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [],
+   "snippet": "shufflePlay()",
+   "qName": "SGBotic.shufflePlay"
+  },
+  "SGBotic.sendCMD": {
+   "kind": 3,
+   "namespace": "SGBotic",
+   "name": "sendCMD",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "sendCMD"
+   },
+   "pkg": null,
+   "retType": "void",
+   "parameters": [
+    {
+     "name": "command",
+     "description": "",
+     "type": "number",
+     "options": {},
+     "isEnum": false
+    },
+    {
+     "name": "dath",
+     "description": "",
+     "type": "number",
+     "options": {},
+     "isEnum": false
+    },
+    {
+     "name": "datl",
+     "description": "",
+     "type": "number",
+     "options": {},
+     "isEnum": false
+    }
+   ],
+   "snippet": "sendCMD(0, 0, 0)",
+   "qName": "SGBotic.sendCMD"
+  },
+  "temp": {
+   "kind": 4,
+   "namespace": "",
+   "name": "temp",
+   "attributes": {
+    "paramDefl": {},
+    "callingConvention": 0,
+    "_source": null,
+    "paramHelp": {},
+    "jsDoc": "",
+    "_name": "temp"
+   },
+   "pkg": null,
+   "retType": "number",
+   "parameters": null,
+   "qName": "temp"
+  }
+ }
+}

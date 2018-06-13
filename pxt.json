@@ -1,0 +1,18 @@
+{
+    "name": "MP3",
+    "version": "0.1",
+    "description": "Makdecode block to simplify using MP3 playr",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "mp3.ts",
+        "base.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
