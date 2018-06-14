@@ -68,6 +68,7 @@ namespace SGBotic{
       //  basic.pause(2000)
         sendCMD(CMD.SEL_DEVICE, 0, 0x02)       //select TF Card
         basic.pause(500)
+       
     }
     
     
@@ -123,7 +124,7 @@ namespace SGBotic{
     //% subcategory=MP3
     //% blockId="MP3_nextTrack" block="next track"
     //% weight=71  blockExternalInputs=true blockGap=20
-    export function nextTrack(): void {
+    export function nextTrack(): void {  
         sendCMD(CMD.NEXT_TRACK, 0, 0)
     }
     
@@ -179,9 +180,8 @@ namespace SGBotic{
     //% track.min=1 track.max=99
     //% folder.min=1 folder.max=99
     export function playTrack(track: number, folder: number): void {
-      
-        sendCMD(CMD.PLAY_FOLDER_FILE, folder, track)
-        
+        sendCMD(CMD.PLAY_FOLDER_FILE, folder, track)  
+        clearBuffer()
     }
     
     /**
@@ -213,7 +213,12 @@ namespace SGBotic{
     }
     
     
-
+    export function clearBuffer():void{
+        //let bufr = pins.createBuffer(20)
+        //bufr = serial.readBuffer(20) 
+        let strbufr: string
+        strbufr = serial.readString()
+    }
   
     export function sendCMD(command: number, dath: number, datl: number): void {
         basic.pause(500)
