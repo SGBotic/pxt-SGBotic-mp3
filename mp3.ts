@@ -64,11 +64,9 @@ namespace SGBotic{
             pinTX,
             BaudRate.BaudRate9600
         )
-       // basic.pause(500)
-      //  basic.pause(2000)
+        basic.pause(500)
         sendCMD(CMD.SEL_DEVICE, 0, 0x02)       //select TF Card
         basic.pause(500)
-       
     }
     
     
@@ -234,9 +232,4 @@ namespace SGBotic{
         serial.writeBuffer(dataBuffer)   
        
     }
-    
- 
- 
-  
-  
 }
